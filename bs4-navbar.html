@@ -5,13 +5,19 @@
 <title>bs4-Nabvar.html</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
+<style>
+  body {padding-top: 70px;}
+</style>
+
 </head>
 
 <body>
 
-<nav class="navbar navbar-default" role="navigation">
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+  
   <!-- Brand and toggle get grouped for better mobile display -->
   <div class="navbar-header">
+    
     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
       <span class="sr-only">Toggle navigation</span>
       <span class="icon-bar"></span>
@@ -26,9 +32,9 @@
     <ul class="nav navbar-nav">
       
 
-      <!-- titlu preliminar -->
+      <!-- Titlu preliminar -->
       <li class="dropdown">
-        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Titlu <br>preliminar<b class="caret"></b></a>
+        <a href="#tp" class="dropdown-toggle" data-toggle="dropdown">Titlu <br>preliminar<b class="caret"></b></a>
         <ul class="dropdown-menu">
           <li role="presentation" class="dropdown-header">Domeniul si principiile fundamentale</li>
           <li><a href="#tpci">Capitolul I- Domeniul de reglementare al Codului de procedura civila</a></li>
@@ -42,25 +48,25 @@
 
     <!-- cartea I -->
       <li class="dropdown">
-        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Cartea I <br>Dispozitii generale<b class="caret"></b></a>
+        <a href="#ci" class="dropdown-toggle" data-toggle="dropdown">CI Dispozitii<br> generale<b class="caret"></b></a>
 
         <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
 
           <li><a href="#citi">Titlul I Actiunea civila </a></li>
-          <li><a href="#">Titlul II Participantii la procesul civil</a>
+          <li><a href="citii">Titlul II Participantii la procesul civil</a>
           </li>
 
-          <li><a href="#">Titlul III Competenta instantelor judecatoresti</a></li>
-          <li><a href="#">Titlul IV Actele de procedura</a></li>
-          <li><a href="#">Titlul V Termenele procedurale</a></li>
-          <li><a href="#">Titlul VI Amenzi judiciare si despagubiri</a></li>
+          <li><a href="citiii">Titlul III Competenta instantelor judecatoresti</a></li>
+          <li><a href="citiv">Titlul IV Actele de procedura</a></li>
+          <li><a href="citv">Titlul V Termenele procedurale</a></li>
+          <li><a href="citvi">Titlul VI Amenzi judiciare si despagubiri</a></li>
         </ul>
       </li>
 
 
       <!-- cartea II -->
       <li class="dropdown">
-        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Cartea a II-a<br> Procedura concencioasa<b class="caret"></b></a>
+        <a href="#cii" class="dropdown-toggle" data-toggle="dropdown">CII  Procedura<br>contencioasa<b class="caret"></b></a>
         <ul class="dropdown-menu">
           <li><a href="#ciiti">Titlul I- Procedura in fata primei instante </a>
           <li><a href="#ciitii">Titlul II- Caile de atac </a>
@@ -71,7 +77,7 @@
 
 
       <li class="dropdown">
-        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Cartea a III-a<br> Procedura necontencioasa<b class="caret"></b></a>
+        <a href="#ciii" class="dropdown-toggle" data-toggle="dropdown">CIII  Procedura<br>necontencioasa<b class="caret"></b></a>
         <ul class="dropdown-menu">
           <li><a href="#ciiiti">Titlul I- Dispozitii generale </a></li>
           <li><a href="#ciiitii">Titlul II- Dispozitii speciale </a></li>
@@ -79,7 +85,7 @@
       </li>
 
       <li class="dropdown">
-        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Cartea a IV-a<br> Despre arbitraj<b class="caret"></b></a>
+        <a href="#civ" class="dropdown-toggle" data-toggle="dropdown">CIV Despre<br>arbitraj<b class="caret"></b></a>
         <ul class="dropdown-menu">
           <li><a href="#civti">Titlul I- Dispozitii generale </a></li>
           <li><a href="#civtii">Titlul II- Conventia arbitrala </a></li>
@@ -92,7 +98,7 @@
       </li>
 
       <li class="dropdown">
-        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Cartea a V-a<br> Despre executarea silita<b class="caret"></b></a>
+        <a href="#cv" class="dropdown-toggle" data-toggle="dropdown">CV Despre<br>executarea silita<b class="caret"></b></a>
         <ul class="dropdown-menu">
           <li><a href="#cvti">Titlul I- Dispozitii generale</a>
           <li><a href="#cvtii">Titlul II- Urmarirea silita asupra bunurilor debitorului</a>
@@ -102,7 +108,7 @@
 
 
       <li class="dropdown">
-        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Cartea a VI-a<br> Proceduri speciale<b class="caret"></b></a>
+        <a href="#cvi" class="dropdown-toggle" data-toggle="dropdown">CVI Proceduri<br>speciale<b class="caret"></b></a>
         <ul class="dropdown-menu">
           <li><a href="#cviti" style="width:400px">Titlul I- Procedura divortului </a>
           <li><a href="#cvitii" style="width:400px">Titlul II- Procedura punerii sub interdictie judecatoreasca </a></li>
@@ -121,56 +127,93 @@
         </ul>
       </li>
 
+
+      <li class="dropdown">
+        <a href="#cvii" class="dropdown-toggle" data-toggle="dropdown">CVII Procesul civil<br>international<b class="caret"></b></a>
+        <ul class="dropdown-menu pull-right">
+          <li><a href="#cvti">Titlul I- Competenta internationala a instantelor romane</a>
+          <li><a href="#cvtii">Titlul II- Legea aplicabila in procesul civil international</a>
+          <li><a href="#cvtiii">Titlul III- Eficacitatea hotararilor straine</a>
+      <li><a href="#cvtiii">Titlul IV- Arbitrajul international si efectul hotararilor arbitrale straine</a>
+        </ul>
+      </li>
     </ul>
+    
+
     <form class="navbar-form navbar-left" role="search">
       <div class="form-group">
         <input type="text" class="form-control" placeholder="Search">
       </div>
       <button type="submit" class="btn btn-default">Cauta</button>
     </form>
-    <ul class="nav navbar-nav navbar-right">
-      
 
+    <ul class="nav navbar-nav navbar-right">
     </ul>
   </div><!-- /.navbar-collapse -->
 </nav>
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <!-- /.BODY -->
 
-
+<body>
 <div class="container">
-  </div><div class="row">
-    <div class="col-md-2"><h4>Titlu preliminar</h4></div>
-    <div class="col-md-10"><h4>Domeniul de reglementare al Codului de procedura civila si principii fundamentale ale procesului civil</h4></div>
+  <div class="row">
+    <div class="col-md-12"><h2><a id="ci"><p align=center>Titlu preliminar <br> Domeniul de reglementare al Codului de procedura civila si principii fundamentale ale procesului civil</p></a></h2></div>
   </div>
 
   </div><div class="row">
-    <div class="col-md-2"><h4>Capitolul I</h4></div>
-    <div class="col-md-10"><h4>Domeniul de reglementare al Codului de procedura civila</h4></div>
+    <div class="col-md-12"><h3><p align=center>Capitolul I Domeniul de reglementare al Codului de procedura civila</p></h3></div>
   </div>
 
  
   </div><div class="row">
-    <div class="col-md-2">Art. 1 Obiectul si scopul Codului de procedura civila</div>
-    <div class="col-md-10">(1)Codul de procedura civila, denumit in continuare codul, stabileste regulile de competenta si de judecare a cauzelor civile, precum si cele de executare a hotararilor instantelor si a altor titluri executorii, in scopul infaptuirii justitiei in materie civila.
+    <div class="col-md-2">Obiectul si scopul Codului de procedura civila</div> 
+    <div class="col-md-10">Art 1. - (1)Codul de procedura civila, denumit in continuare codul, stabileste regulile de competenta si de judecare a cauzelor civile, precum si cele de executare a hotararilor instantelor si a altor titluri executorii, in scopul infaptuirii justitiei in materie civila.
     <p>(2) In infaptuirea justitiei, instantele judecatoresti indeplinesc un serviciu de interes public, asigurand respectarea ordinii de drept, a libertatilor fundamentale, a drepturilor si intereselor legitime ale persoanelor fizice si persoanelor juridice, aplicarea legii si garantarea suprematiei acesteia.</p></div>
   </div>
 
 
-</div><div class="row"><div class="col-md-2">Art 2. -Aplicabilitatea generala a Codului de procedura civila
-</div><div class="col-md-10"> (1) Dispozitiile prezentului cod constituie procedura de drept comun in materie civila.
+</div><div class="row"><div class="col-md-2">Aplicabilitatea generala a Codului de procedura civila
+</div><div class="col-md-10">Art 2. - (1) Dispozitiile prezentului cod constituie procedura de drept comun in materie civila.
 <p>(2) De asemenea, dispozitiile prezentului cod se aplica si in alte materii, in masura in care legile care le reglementeaza nu cuprind dispozitii contrare.</p></div></div>
 
-</div><div class="row"><div class="col-md-2">Art 3. - Aplicarea prioritara a tratatelor internationale privitoare la drepturile omului
-</div><div class="col-md-10">(1) In materiile reglementate de prezentul cod, dispozitiile privind drepturile si libertatile persoanelor vor fi interpretate si aplicate in concordanta cu Constitutia, Declaratia Universala a Drepturilor Omului, cu pactele si cu celelalte tratate la care Romania este parte.
+</div><div class="row"><div class="col-md-2">Aplicarea prioritara a tratatelor internationale privitoare la drepturile omului</div><div class="col-md-10">Art 3. - (1) In materiile reglementate de prezentul cod, dispozitiile privind drepturile si libertatile persoanelor vor fi interpretate si aplicate in concordanta cu Constitutia, Declaratia Universala a Drepturilor Omului, cu pactele si cu celelalte tratate la care Romania este parte.
 <p>(2) Daca exista neconcordante intre pactele si tratatele privitoare la drepturile fundamentale ale omului, la care Romania este parte, si prezentul cod, au prioritate reglementarile internationale, cu exceptia cazului in care prezentul cod contine dispozitii mai favorabile.</p>
 
-</div></div></div><div class="row"><div class="col-md-2">Art 4. - Aplicarea prioritara a dreptului Uniunii Europene</div>
-<div class="col-md-10">In materiile reglementate de prezentul cod, normele obligatorii ale dreptului Uniunii Europene se aplica in mod prioritar, indiferent de calitatea sau de statutul partilor</div></div>
+</div></div></div><div class="row"><div class="col-md-2">Aplicarea prioritara a dreptului Uniunii Europene</div>
+<div class="col-md-10">Art 4. - In materiile reglementate de prezentul cod, normele obligatorii ale dreptului Uniunii Europene se aplica in mod prioritar, indiferent de calitatea sau de statutul partilor</div></div>
 
 
-<div class="row"><div class="col-md-2"><h4>Capitolul II</h4></div><div class="col-md-10"><h4>Principiile fundamentale ale procesului civil</h4></div>
+<div class="row"><div class="col-md-12"><h3><p align=center>Capitolul II Principiile fundamentale ale procesului civil</p></h3></h4></div>
 
 
 </div><div class="row"><div class="col-md-2">Indatoriri privind primirea si solutionarea cererilor
@@ -259,7 +302,27 @@ Obligatiile tertilor in desfasurarea procesului
 </div><div class="col-md-10">Art 23. - (1) Cei prezenti la sedinta de judecata sunt datori sa manifeste respectul cuvenit fata de instanta si sa nu tulbure buna desfasurare a sedintei de judecata.
 <p>(2) Presedintele vegheaza ca ordinea si solemnitatea sedintei sa fie respectate, putand lua in acest scop orice masura prevazuta de lege.</div></div>
 
+<div class="row"><div class="col-md-12"><h2><p align=center><a id="tpciii">Capitolul III
+Aplicarea legii de procedura civila</a></p></h2></div>
 
+</div></div><div class="row"><div class="col-md-2">Legea aplicabila proceselor noi
+</div><div class="col-md-10">Art 24. - Dispozitiile legii noi de procedura se aplica numai proceselor si executarilor silite incepute dupa intrarea acesteia in vigoare.
+
+</div></div><div class="row"><div class="col-md-2">Legea aplicabila proceselor in curs
+</div><div class="col-md-10">Art 25. - (1) Procesele in curs de judecata, precum si executarile silite incepute sub legea veche raman supuse acelei legi.
+<p>(2) Procesele in curs de judecata la data schimbarii competentei instantelor legal investite vor continua sa fie judecate de acele instante, potrivit legii sub care au inceput. In caz de trimitere spre rejudecare, dispozitiile legale privitoare la competenta, in vigoare la data cand a inceput procesul, raman aplicabile.
+<p>(3) In cazul in care instanta investita este desfiintata, dosarele se vor trimite din oficiu instantei competente potrivit legii noi. Dispozitiile alin. (1) raman aplicabile.
+
+</div></div><div class="row"><div class="col-md-2">Legea aplicabila mijloacelor de proba
+</div><div class="col-md-10">Art 26. - (1) Legea care guverneaza conditiile de admisibilitate si puterea doveditoare a probelor preconstituite si a prezumtiilor legale este cea in vigoare la data producerii ori, dupa caz, a savarsirii faptelor juridice care fac obiectul probatiunii.
+<p>(2) Administrarea probelor se face potrivit legii in vigoare la data administrarii lor.
+
+</div></div><div class="row"><div class="col-md-2">Legea aplicabila hotararilor
+</div><div class="col-md-10">Art 27. - Hotararile raman supuse cailor de atac, motivelor si termenelor prevazute de legea sub care a inceput procesul.
+
+</div></div><div class="row"><div class="col-md-2">Teritorialitatea legii de procedura
+</div><div class="col-md-10">Art 28. - (1) Dispozitiile legii de procedura se aplica tuturor proceselor care se judeca de catre instantele romane, sub rezerva unor dispozitii legale contrare.
+<p>(2) In cazul raporturilor procesuale cu element de extraneitate, determinarea legii de procedura aplicabile se face potrivit normelor cuprinse in cartea a VII-a.</div></div>
 
 
 
@@ -275,8 +338,8 @@ Obligatiile tertilor in desfasurarea procesului
 
 <!--Cartea I - Titlul I-->
 
-<div class="row"><div class="col-md-12"><a id="ci">Cartea I Dispozitii generale</a>
-</div></div><div class="row"><div class="col-md-12"><a id="citi">Titlul I Actiunea civila</a>
+<div class="row"><div class="col-md-12"><a id="ci"><H2><p align=center>Cartea I Dispozitii generale</p></h2></a>
+</div></div><div class="row"><div class="col-md-12"><a id="citi"><h3><p align=center>Titlul I Actiunea civila</a></p></h3>
 
 </div></div><div class="row"><div class="col-md-2">Notiune</div><div class="col-md-10"> 29. - Actiunea civila este ansamblul mijloacelor procesuale prevazute de lege pentru protectia dreptului subiectiv pretins de catre una dintre parti sau a unei alte situatii juridice, precum si pentru asigurarea apararii partilor in proces.
 
